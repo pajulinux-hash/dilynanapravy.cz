@@ -5,6 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Díly na nápravy — FIMAS s.r.o. Nové Veselí</title>
 <meta name="description" content="Specializovaný katalog náhradních dílů na nápravy pro zemědělské a automobilové přívěsy. FIMAS s.r.o. Nové Veselí.">
+
+<!-- Favicon (inline SVG) -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='%231a3a2a'/><stop offset='1' stop-color='%23234432'/></linearGradient></defs><rect width='64' height='64' rx='14' fill='url(%23g)'/><text x='32' y='46' font-family='Georgia, serif' font-size='42' font-weight='700' fill='%23d4a034' text-anchor='middle'>F</text><circle cx='48' cy='18' r='4' fill='%23d4a034'/></svg>">
+<link rel="apple-touch-icon" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='%231a3a2a'/><stop offset='1' stop-color='%23234432'/></linearGradient></defs><rect width='180' height='180' rx='40' fill='url(%23g)'/><text x='90' y='130' font-family='Georgia, serif' font-size='120' font-weight='700' fill='%23d4a034' text-anchor='middle'>F</text><circle cx='136' cy='50' r='11' fill='%23d4a034'/></svg>">
+<meta name="theme-color" content="#1a3a2a">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
 <style>
@@ -535,6 +540,10 @@ function getFilteredProducts() {
       (p.category && p.category.toLowerCase().includes(q))
     );
   }
+  // Sort alphabetically (Czech locale, case-insensitive)
+  filtered = [...filtered].sort((a, b) =>
+    (a.name || '').localeCompare(b.name || '', 'cs', { sensitivity: 'base' })
+  );
   return filtered;
 }
 
