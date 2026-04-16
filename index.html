@@ -343,8 +343,7 @@ body{font-family:var(--sans);background:var(--bg);color:var(--text);line-height:
     <div class="m-stock" id="modalStock"></div>
     <div class="m-actions">
       <a class="p-btn p-btn-primary" id="modalShopLink" href="#" target="_blank">Koupit v e-shopu</a>
-      <a class="p-btn p-btn-secondary" href="mailto:info@fimas.cz">&#9993; Poptat díl</a>
-      <a class="p-btn p-btn-secondary" href="https://wa.me/420731155789" target="_blank">WhatsApp</a>
+      <a class="p-btn p-btn-secondary" href="https://wa.me/420731155789" target="_blank">&#128172; WhatsApp</a>
     </div>
   </div>
 </div>
@@ -422,13 +421,7 @@ const CATEGORY_GROUPS = [
   {
     id: 'napravy', label: 'Nápravy a díly náprav', icon: '&#128666;',
     categories: [
-      { id: 'napravy-adr', name: 'ADR COLAERT nápravy', count: 0 },
-      { id: 'napravy-bpw', name: 'BPW AGRO nápravy', count: 0 },
-      { id: 'napravy-fad', name: 'FAD nápravy', count: 0 },
-      { id: 'napravy-kezmarok', name: 'KEZMAROK nápravy', count: 0 },
-      { id: 'napravy-n900', name: 'Nápravy N900, MV2-027', count: 0 },
-      { id: 'napravy-obecne', name: 'Nápravy (ostatní)', count: 0 },
-      { id: 'napravy-nd', name: 'Nápravy — náhradní díly', count: 0 },
+      { id: 'napravy-obecne', name: 'Nápravy a díly náprav', count: 0 },
       { id: 'polonaprava', name: 'Polonáprava', count: 0 },
       { id: 'vahadlo-napravy', name: 'Vahadlo a díly nápravy', count: 0 },
     ]
@@ -467,6 +460,7 @@ async function loadProducts() {
     /* No data.json yet — show empty state prompt */
   }
   updateCategoryCounts();
+  renderCategories();
   document.getElementById('stat-products').textContent = products.length || '—';
   renderProducts();
 }
@@ -484,13 +478,16 @@ function renderCategories() {
   let totalCats = 0;
   let html = '';
   CATEGORY_GROUPS.forEach(group => {
+    // Filter out categories with 0 products
+    const activeCats = group.categories.filter(c => (c.count || 0) > 0);
+    if (activeCats.length === 0) return;
     html += '<div class="cat-group-label">' + group.label + '</div>';
-    group.categories.forEach(cat => {
+    activeCats.forEach(cat => {
       totalCats++;
       html += '<div class="cat-card' + (currentFilter === cat.id ? ' active' : '') + '" data-group="' + group.id + '" onclick="filterBy(\'' + cat.id + '\',\'' + cat.name + '\')">' +
         '<div class="cat-icon">' + group.icon + '</div>' +
         '<h3>' + cat.name + '</h3>' +
-        '<div class="cat-count">' + (cat.count || '—') + ' ks</div>' +
+        '<div class="cat-count">' + cat.count + ' ' + (cat.count === 1 ? 'položka' : (cat.count < 5 ? 'položky' : 'položek')) + '</div>' +
       '</div>';
     });
   });
@@ -558,10 +555,7 @@ function renderProducts() {
       '<div class="p-codes">' + (p.subtitle || '') + '</div>' +
       '<div class="p-footer">' +
         '<span class="p-stock ' + stockClass + '">' + stockText + '</span>' +
-        '<div class="p-actions">' +
-          '<a class="p-btn p-btn-primary" href="' + shopUrl + '" target="_blank" onclick="event.stopPropagation()">E-shop</a>' +
-          '<a class="p-btn p-btn-secondary" href="mailto:info@fimas.cz?subject=Poptávka: ' + encodeURIComponent(p.name) + '" onclick="event.stopPropagation()">Poptat</a>' +
-        '</div>' +
+        '<a class="p-btn p-btn-primary" href="' + shopUrl + '" target="_blank" onclick="event.stopPropagation()">E-shop &#8599;</a>' +
       '</div>' +
     '</div>';
   });

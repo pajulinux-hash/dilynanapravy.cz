@@ -146,22 +146,6 @@ PRODUCT_KEYWORDS = [
     (100, 'trmen pera', 'trmen-pera'),
     (100, 'třmen pera', 'trmen-pera'),
 
-    # === PRIORITA 90 — napravy podle vyrobce ===
-    (90, 'naprava adr', 'napravy-adr'),
-    (90, 'náprava adr', 'napravy-adr'),
-    (90, 'naprava colaert', 'napravy-adr'),
-    (90, 'náprava colaert', 'napravy-adr'),
-    (90, 'naprava bpw', 'napravy-bpw'),
-    (90, 'náprava bpw', 'napravy-bpw'),
-    (90, 'naprava fad', 'napravy-fad'),
-    (90, 'náprava fad', 'napravy-fad'),
-    (90, 'naprava kezmarok', 'napravy-kezmarok'),
-    (90, 'náprava kežmarok', 'napravy-kezmarok'),
-    (90, 'naprava n900', 'napravy-n900'),
-    (90, 'náprava n900', 'napravy-n900'),
-    (90, 'naprava mv2-027', 'napravy-n900'),
-    (90, 'náprava mv2-027', 'napravy-n900'),
-
     # === PRIORITA 80 — hlavni terminy ===
     # Brzdy
     (80, 'buben brzdy', 'buben-brzdy'),
@@ -226,6 +210,25 @@ PRODUCT_KEYWORDS = [
     (80, 'nápravy', 'napravy-obecne'),
     (80, 'naprava', 'napravy-obecne'),
     (80, 'náprava', 'napravy-obecne'),
+    (80, 'rameno naprav', 'napravy-obecne'),
+    (80, 'rameno náprav', 'napravy-obecne'),
+    (80, 'trubka naprav', 'napravy-obecne'),
+    (80, 'trubka náprav', 'napravy-obecne'),
+    (80, 'priruba naprav', 'napravy-obecne'),
+    (80, 'příruba náprav', 'napravy-obecne'),
+    (80, 'viko ramene', 'napravy-obecne'),
+    (80, 'víko ramene', 'napravy-obecne'),
+    (80, 'cep riditeln', 'napravy-obecne'),
+    (80, 'čep řiditeln', 'napravy-obecne'),
+    (80, 'pouzdro riditeln', 'napravy-obecne'),
+    (80, 'pouzdro řiditeln', 'napravy-obecne'),
+    (80, 'pouzdro cepu riditeln', 'napravy-obecne'),
+    (80, 'pouzdro čepu řiditeln', 'napravy-obecne'),
+    (80, 'tlumic riditeln', 'napravy-obecne'),
+    (80, 'tlumič řiditeln', 'napravy-obecne'),
+    (80, 'koncovka spojov', 'napravy-obecne'),
+    (80, 'sada ulozeni tlumic', 'napravy-obecne'),
+    (80, 'sada uložení tlumič', 'napravy-obecne'),
 
     # Vzduchove brzdy
     (80, 'ventil brzd', 'ventily-brzd'),
