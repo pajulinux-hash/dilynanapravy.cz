@@ -508,7 +508,7 @@
         "name": "čep kola vahadla HTS 100",
         "subtitle": "",
         "category": "vahadlo-napravy",
-        "stock": "skladem",
+        "stock": "na-dotaz",
         "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_114292353120001_1.png",
         "url": "https://obchod.fimas.cz/cep-kola-vahadla-HTS-100-d1142.htm"
     },
@@ -589,7 +589,7 @@
         "name": "trubka vahadla středová HTS 100",
         "subtitle": "",
         "category": "dily-vahadla",
-        "stock": "na-dotaz",
+        "stock": "skladem",
         "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_943hts-03.jpg",
         "url": "https://obchod.fimas.cz/trubka-vahadla-stredova-HTS-100-d943.htm"
     },
