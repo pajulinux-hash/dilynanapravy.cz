@@ -3613,7 +3613,7 @@
         "name": "klíč brzdy ADR 32 drážek, oválná vačka, celková délka 720 mm A=38 mm,B= 650 mm #",
         "subtitle": "7503553007",
         "category": "klic-brzdy",
-        "stock": "na-dotaz",
+        "stock": "skladem",
         "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_2244klic-ADR-vykres-ovalna-vacka.png",
         "url": "https://obchod.fimas.cz/klic-brzdy-ADR-32-drazek-ovalna-vacka-celkova-delka-720-mm-A-38-mm-B-650-mm-d2244.htm"
     },
@@ -4798,6 +4798,15 @@
     },
     {
         "id": "534",
+        "name": "čelist brzdy BPW AGRO FL4118, 410x180 sada na 1 nápravu AGRAR",
+        "subtitle": "09.803.62.10.0",
+        "category": "celist-brzdy",
+        "stock": "skladem",
+        "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_211609-803-62-10-0.jpg",
+        "url": "https://obchod.fimas.cz/celist-brzdy-BPW-AGRO-FL4118-410x180-sada-na-1-napravu-AGRAR-d2116.htm"
+    },
+    {
+        "id": "535",
         "name": "náboj kola BPW AGRO 33118-33213",
         "subtitle": "03.271.54.94.0",
         "category": "naboj-kola",
@@ -4806,22 +4815,13 @@
         "url": "https://obchod.fimas.cz/naboj-kola-BPW-AGRO-33118-33213-d2571.htm"
     },
     {
-        "id": "535",
+        "id": "536",
         "name": "náboj kola BPW AGRO LA 11010-1",
         "subtitle": "03.271.54.90.0",
         "category": "naboj-kola",
         "stock": "skladem",
         "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_2570ACHBPW940216_2.png",
         "url": "https://obchod.fimas.cz/naboj-kola-BPW-AGRO-LA-11010-1-d2570.htm"
-    },
-    {
-        "id": "536",
-        "name": "čelist brzdy BPW AGRO FL4118, 410x180 sada na 1 nápravu AGRAR",
-        "subtitle": "09.803.62.10.0",
-        "category": "celist-brzdy",
-        "stock": "skladem",
-        "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_211609-803-62-10-0.jpg",
-        "url": "https://obchod.fimas.cz/celist-brzdy-BPW-AGRO-FL4118-410x180-sada-na-1-napravu-AGRAR-d2116.htm"
     },
     {
         "id": "537",
