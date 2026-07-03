@@ -1435,7 +1435,7 @@
         "name": "rozvaděč vzduchu 0,8 Mpa -CZ- 443612331001, 443612331000",
         "subtitle": "443612331001, 443612331000, 731530171",
         "category": "rozvadece",
-        "stock": "na-dotaz",
+        "stock": "skladem",
         "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_633_vyr_633731-530-170O.png",
         "url": "https://obchod.fimas.cz/rozvadec-vzduchu-0-8-Mpa-CZ-443612331001-443612331000-d633.htm"
     },
@@ -1912,7 +1912,7 @@
         "name": "disk kola 13,00x18 ET0 8 otvorů (pneu 14,5/80-18) - ACCURIDE - MEFRO 44131104 *",
         "subtitle": "ET0/221/275/8/A3",
         "category": "disk-kola",
-        "stock": "skladem",
+        "stock": "na-dotaz",
         "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_604wz_32010145n_4.png",
         "url": "https://obchod.fimas.cz/disk-kola-13-00x18-ET0-8-otvoru-pneu-14-5-80-18-ACCURIDE-MEFRO-44131104-d604.htm"
     },
@@ -5368,7 +5368,7 @@
         "name": "válec brzdy ø 125 -CZ- na přívěsy a návěsy",
         "subtitle": "přívěsy",
         "category": "brzdovy-valec",
-        "stock": "skladem",
+        "stock": "na-dotaz",
         "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_53_vyr_54443612176000.png",
         "url": "https://obchod.fimas.cz/valec-brzdy-125-CZ-na-privesy-a-navesy-d53.htm"
     },
