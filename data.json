@@ -1687,7 +1687,7 @@
         "name": "ventil uvolňovací KNORR-BREMSE AE4264, 352019011",
         "subtitle": "II36055, AE4264 KNORR - BREMSE",
         "category": "ventily-brzd",
-        "stock": "na-dotaz",
+        "stock": "skladem",
         "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_1847AE4264.jpg",
         "url": "https://obchod.fimas.cz/ventil-uvolnovaci-KNORR-BREMSE-AE4264-352019011-d1847.htm"
     },
@@ -1792,21 +1792,21 @@
     },
     {
         "id": "200",
-        "name": "disk kola 11,00x18 ET0 6 otvorů - ACCURIDE - MEFRO 44065101 *",
-        "subtitle": "ET0/161/205/6/A2",
-        "category": "disk-kola",
-        "stock": "skladem",
-        "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_99obrazek-pripravujeme.jpg",
-        "url": "https://obchod.fimas.cz/disk-kola-11-00x18-ET0-6-otvoru-ACCURIDE-MEFRO-44065101-d1165.htm"
-    },
-    {
-        "id": "201",
         "name": "disk kola 11,00x18 ET0 6 otvorů - ACCURIDE - ZESÍLENÝ- MEFRO 44033102 *",
         "subtitle": "ET0/161/205/6/A2 ZESÍLENÝ",
         "category": "disk-kola",
         "stock": "na-dotaz",
         "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_1983obrazek-pripravujeme.jpg",
         "url": "https://obchod.fimas.cz/disk-kola-11-00x18-ET0-6-otvoru-ACCURIDE-ZESILENY-MEFRO-44033102-d1983.htm"
+    },
+    {
+        "id": "201",
+        "name": "disk kola 11,00x18 ET0 6 otvorů - JANTSA -  *",
+        "subtitle": "ET0/161/205/6/A2, MEFRO 44065101",
+        "category": "disk-kola",
+        "stock": "skladem",
+        "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_1165c0641a1259677.png",
+        "url": "https://obchod.fimas.cz/disk-kola-11-00x18-ET0-6-otvoru-JANTSA-d1165.htm"
     },
     {
         "id": "202",
@@ -1837,12 +1837,12 @@
     },
     {
         "id": "205",
-        "name": "disk kola 11,75x22,5 ET0 10 otvorů - přívěs, návěs *",
+        "name": "disk kola 11,75x22,5 ET0 10 otvorů - přívěs, návěs - JANTSA - *",
         "subtitle": "ET0/281/335/10/ø 26/std/rovné otvory",
         "category": "disk-kola",
         "stock": "skladem",
         "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_592632b3a1230749.png",
-        "url": "https://obchod.fimas.cz/disk-kola-11-75x22-5-ET0-10-otvoru-prives-naves-d592.htm"
+        "url": "https://obchod.fimas.cz/disk-kola-11-75x22-5-ET0-10-otvoru-prives-naves-JANTSA-d592.htm"
     },
     {
         "id": "206",
@@ -1927,12 +1927,12 @@
     },
     {
         "id": "215",
-        "name": "disk kola 14,00x22,5 ET0 10 otvorů - přívěs",
+        "name": "disk kola 14,00x22,5 ET0 10 otvorů - přívěs - JANTSA -",
         "subtitle": "ET0/281/335/10/M22DS36/std/zahloubené otvory",
         "category": "disk-kola",
         "stock": "skladem",
         "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_608_vyr_54140203.jpg",
-        "url": "https://obchod.fimas.cz/disk-kola-14-00x22-5-ET0-10-otvoru-prives-d608.htm"
+        "url": "https://obchod.fimas.cz/disk-kola-14-00x22-5-ET0-10-otvoru-prives-JANTSA-d608.htm"
     },
     {
         "id": "216",
@@ -1985,7 +1985,7 @@
         "subtitle": "ET0/281/335/10/A3 M22S4331S2 40/65KM/H-6700/4800 KG  46308105,46308 105, 46023107, 46023 107",
         "category": "disk-kola",
         "stock": "skladem",
-        "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_99obrazek-pripravujeme.jpg",
+        "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_1374ef40aa40387.png",
         "url": "https://obchod.fimas.cz/disk-kola-16-00x22-5-ET0-10-otvoru-JANSTA-d1374.htm"
     },
     {
@@ -1999,12 +1999,12 @@
     },
     {
         "id": "223",
-        "name": "disk kola 20,00x22,5 ET-50 10 otvorů VS PROFILINE",
+        "name": "disk kola 20,00x22,5 ET-50 10 otvorů VS PROFILINE -JANTSA-",
         "subtitle": "ET-50/281/335/10/A3/VS",
         "category": "disk-kola",
-        "stock": "na-dotaz",
-        "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_1778_vyr_99obrazek-pripravujeme.jpg",
-        "url": "https://obchod.fimas.cz/disk-kola-20-00x22-5-ET-50-10-otvoru-VS-PROFILINE-d1778.htm"
+        "stock": "skladem",
+        "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_177818c6ea1236236.png",
+        "url": "https://obchod.fimas.cz/disk-kola-20-00x22-5-ET-50-10-otvoru-VS-PROFILINE-JANTSA-d1778.htm"
     },
     {
         "id": "224",
@@ -2461,7 +2461,7 @@
         "name": "náboj kola N900, MV2-027, A10 víčko šroubované do náboje s drátěnou pojistkou *",
         "subtitle": "pro brzdu 400/140 , A10, N900, NS900, MV2-027, MV2027",
         "category": "naboj-kola",
-        "stock": "na-dotaz",
+        "stock": "skladem",
         "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_1267EA132060-5610-4938-8B9D-997576BB66AB.jpeg",
         "url": "https://obchod.fimas.cz/naboj-kola-N900-MV2-027-A10-vicko-sroubovane-do-naboje-s-dratenou-pojistkou-d1267.htm"
     },
@@ -3398,7 +3398,7 @@
         "subtitle": "sada na 1 kolo  s pouzdrem,čepem čelisti a pružinami",
         "category": "celist-brzdy",
         "stock": "skladem",
-        "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_849RE0050-aaa.jpg",
+        "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_84_vyr_849RE0050-aaa.png",
         "url": "https://obchod.fimas.cz/celist-brzdy-ADR-400-80-9RE0048-sada-na-1-kolo-d84.htm"
     },
     {
