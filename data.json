@@ -3919,7 +3919,7 @@
         "name": "obložení 160 ADR 300/160 300x160x11x268 s nýty a pružinami - SADA NA 1 KOLO -",
         "subtitle": "9RH0008 sada na 1 kolo",
         "category": "brzdove-oblozeni",
-        "stock": "na-dotaz",
+        "stock": "skladem",
         "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_17029RH0008-ADR.jpg",
         "url": "https://obchod.fimas.cz/oblozeni-160-ADR-300-160-300x160x11x268-s-nyty-a-pruzinami-SADA-NA-1-KOLO-d1702.htm"
     },
@@ -5330,9 +5330,9 @@
     {
         "id": "593",
         "name": "válec brzdy ø 100 LIAZ",
-        "subtitle": "317-530051",
+        "subtitle": "317-530051, 317530051",
         "category": "brzdovy-valec",
-        "stock": "na-dotaz",
+        "stock": "skladem",
         "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_50_vyr_50443612164008.png",
         "url": "https://obchod.fimas.cz/valec-brzdy-100-LIAZ-d50.htm"
     },
