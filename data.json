@@ -4145,7 +4145,7 @@
         "subtitle": "9RSM01 sada na 2 čepy (sada na 1 nápravu) 45/50-50/55 L45, SM, W, BM",
         "category": "napravy-obecne",
         "stock": "skladem",
-        "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_25049rsm01.jpg",
+        "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_2504_vyr_26417833_2641__vyr_16499rst01--1.png",
         "url": "https://obchod.fimas.cz/pouzdro-cepu-riditelne-napravy-typ-SM-sada-na-1-napravu-ADR-9RSM01-d2504.htm"
     },
     {
@@ -4172,7 +4172,7 @@
         "subtitle": "9RST01 sada na 2 čepy (sada na 1 nápravu) 55/60-60/65 L65",
         "category": "napravy-obecne",
         "stock": "skladem",
-        "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_16499rst01.jpg",
+        "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_1649_vyr_26417833_2641__vyr_16499rst01--1.png",
         "url": "https://obchod.fimas.cz/pouzdro-Y-cepu-riditelne-napravy-9RST01-d1649.htm"
     },
     {
@@ -5728,7 +5728,7 @@
         "name": "buben brzdy AVIA A60/75 zadní",
         "subtitle": "",
         "category": "buben-brzdy",
-        "stock": "na-dotaz",
+        "stock": "skladem",
         "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_214881366330190.jpg",
         "url": "https://obchod.fimas.cz/buben-brzdy-AVIA-A60-75-zadni-d214.htm"
     },
@@ -5908,7 +5908,7 @@
         "name": "čelist brzdy PS208.06, 09.07, 10.08 šíře 100 mm  úplná obložená *",
         "subtitle": "1 kus, litinová obložená",
         "category": "celist-brzdy",
-        "stock": "na-dotaz",
+        "stock": "skladem",
         "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_96celist-brzdy-P0806.jpg",
         "url": "https://obchod.fimas.cz/celist-brzdy-PS208-06-09-07-10-08-sire-100-mm-uplna-oblozena-d96.htm"
     },
@@ -5942,7 +5942,7 @@
     {
         "id": "661",
         "name": "čelist brzdy PANAV UNI šíře 180 mm úplná obložená",
-        "subtitle": "litinová včetně rolny",
+        "subtitle": "1 kus, litinová včetně rolny",
         "category": "celist-brzdy",
         "stock": "skladem",
         "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_100IMG_0086.jpeg",
