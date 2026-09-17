@@ -5422,7 +5422,7 @@
         "name": "Vzduchojem 40 l, pr. 276, LC 750, s přírubou, černý komaxit",
         "subtitle": "barva černý KOMAXIT",
         "category": "vzduchojemy",
-        "stock": "skladem",
+        "stock": "na-dotaz",
         "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_688vzd-pr.jpg",
         "url": "https://obchod.fimas.cz/Vzduchojem-40-l-pr-276-LC-750-s-prirubou-cerny-komaxit-d688.htm"
     },
@@ -5452,5 +5452,86 @@
         "stock": "skladem",
         "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_1029IMG_9135.png",
         "url": "https://obchod.fimas.cz/Ventil-zpetny-2-mosaz-d1029.htm"
+    },
+    {
+        "id": "607",
+        "name": "Brzdový válec ø100, dovoz, pro přívěsy a návěsy",
+        "subtitle": "390-530050 přívěsy",
+        "category": "brzdovy-valec",
+        "stock": "skladem",
+        "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_2054443612161999111--1.png",
+        "url": "https://obchod.fimas.cz/Brzdovy-valec-100-dovoz-pro-privesy-a-navesy-d2054.htm"
+    },
+    {
+        "id": "608",
+        "name": "Brzdový válec ø125, dovoz, pro přívěsy a návěsy",
+        "subtitle": "přívěsy",
+        "category": "brzdovy-valec",
+        "stock": "skladem",
+        "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_2055443612176111999.png",
+        "url": "https://obchod.fimas.cz/Brzdovy-valec-125-dovoz-pro-privesy-a-navesy-d2055.htm"
+    },
+    {
+        "id": "609",
+        "name": "Brzdový válec ø80, 4 úchyty, dovoz, pro přívěsy a návěsy",
+        "subtitle": "přívěsy",
+        "category": "brzdovy-valec",
+        "stock": "skladem",
+        "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_2053443612142999111--1.png",
+        "url": "https://obchod.fimas.cz/Brzdovy-valec-80-4-uchyty-dovoz-pro-privesy-a-navesy-d2053.htm"
+    },
+    {
+        "id": "610",
+        "name": "Brzdový válec 16/24″, kotoučová brzda, membránový",
+        "subtitle": "membránový 05.444.40.01.0,0544440010,135162400470,1351624004",
+        "category": "brzdovy-valec",
+        "stock": "skladem",
+        "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_18998804454107764999.jpg",
+        "url": "https://obchod.fimas.cz/Brzdovy-valec-16-24-kotoucova-brzda-membranovy-d1899.htm"
+    },
+    {
+        "id": "611",
+        "name": "Brzdový válec 16″, pro kotoučovou brzdu, membránový",
+        "subtitle": "membránový BS3300",
+        "category": "brzdovy-valec",
+        "stock": "skladem",
+        "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_1180image.jpg",
+        "url": "https://obchod.fimas.cz/Brzdovy-valec-16-pro-kotoucovou-brzdu-membranovy-d1180.htm"
+    },
+    {
+        "id": "612",
+        "name": "Brzdový válec 20″, pro kotoučovou brzdu, membránový",
+        "subtitle": "membránový",
+        "category": "brzdovy-valec",
+        "stock": "skladem",
+        "image": "https://obchod.fimas.cz/fotky7833/fotos/7833_1739__vyr_1180image.jpg",
+        "url": "https://obchod.fimas.cz/Brzdovy-valec-20-pro-kotoucovou-brzdu-membranovy-d1739.htm"
+    },
+    {
+        "id": "613",
+        "name": "Brzdový válec 24″, pro kotoučovou brzdu, membránový",
+        "subtitle": "membránový",
+        "category": "brzdovy-valec",
+        "stock": "skladem",
+        "image": "https://obchod.fimas.cz/fotky7833/fotos/7833_1740_7833_1739__vyr_1180image.jpg",
+        "url": "https://obchod.fimas.cz/Brzdovy-valec-24-pro-kotoucovou-brzdu-membranovy-d1740.htm"
+    },
+    {
+        "id": "614",
+        "name": "Brzdový válec 30″, včetně vidličky, membránový",
+        "subtitle": "membránový",
+        "category": "brzdovy-valec",
+        "stock": "skladem",
+        "image": "https://obchod.fimas.cz/fotky7833/fotos/7833_1892__vyr_63image.jpg",
+        "url": "https://obchod.fimas.cz/Brzdovy-valec-30-vcetne-vidlicky-membranovy-d1892.htm"
+    },
+    {
+        "id": "615",
+        "name": "Brzdový válec 9″, membránový",
+        "subtitle": "membránový, 076.397-00, 120311101, 123090001",
+        "category": "brzdovy-valec",
+        "stock": "skladem",
+        "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_2627xxbh60z1clsvx9dnfmkq--1.jpg",
+        "url": "https://obchod.fimas.cz/Brzdovy-valec-9-membranovy-d2627.htm"
     }
 ]
