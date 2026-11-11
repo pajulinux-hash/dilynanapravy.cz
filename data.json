@@ -1102,7 +1102,7 @@
         "name": "Rozvaděč vzduchu 0,8 MPa, CZ výroba",
         "subtitle": "443612331001, 443612331000, 731530171",
         "category": "rozvadece",
-        "stock": "skladem",
+        "stock": "na-dotaz",
         "image": "https://obchod.fimas.cz/fotky7833/fotos/_vyr_633_vyr_633731-530-170O.png",
         "url": "https://obchod.fimas.cz/Rozvadec-vzduchu-0-8-MPa-CZ-vyroba-d633.htm"
     },
@@ -4018,7 +4018,7 @@
         "name": "Šroub kola FAD M18×1,5, L=72 mm, LC=78 mm, tělo 19,5/21 mm",
         "subtitle": "309F025",
         "category": "srouby-kola",
-        "stock": "na-dotaz",
+        "stock": "skladem",
         "image": "https://obchod.fimas.cz/fotky7833/fotos/7833_2784__vyr_218822022082.jpg",
         "url": "https://obchod.fimas.cz/Sroub-kola-FAD-M18-1-5-L-72-mm-LC-78-mm-telo-19-5-21-mm-d2784.htm"
     },
