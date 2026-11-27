@@ -70,7 +70,7 @@ POVOLENE = [
     '-c218', '-c572', '-c123',
     '-c285', '-c286', '-c287', '-c311', '-c312', '-c313',
     '-c402', '-c427', '-c515', '-c597', '-c719', '-c720',
-    '?strana=',
+    '?strana=', '&strana=', 'page=', 'strana-',
 ]
 
 # ============================================================
@@ -86,6 +86,8 @@ PRODUCT_KEYWORDS = [
     (110, 'nýt pro obloz', 'nyty-obloz'),
     (110, 'nyty pro obloz', 'nyty-obloz'),
     (110, 'nýty pro obloz', 'nyty-obloz'),
+    (110, 'nyt obloz', 'nyty-obloz'),
+    (110, 'nýt oblož', 'nyty-obloz'),
     (110, 'cep brzdove celisti', 'cep-brzdove-celisti'),
     (110, 'čep brzdové čelisti', 'cep-brzdove-celisti'),
     (110, 'cep celisti', 'cep-brzdove-celisti'),
@@ -98,19 +100,32 @@ PRODUCT_KEYWORDS = [
     (110, 'pružina čelist', 'pruzina-celisti'),
     (110, 'vicko naboje', 'vicko-naboje'),
     (110, 'víčko náboje', 'vicko-naboje'),
+    (110, 'vicko naboj', 'vicko-naboje'),
+    (110, 'víčko náboj', 'vicko-naboje'),
     (110, 'vlozka sroubu kola', 'vlozka-sroubu'),
     (110, 'vložka šroubu kola', 'vlozka-sroubu'),
+    (110, 'vlozka sroubu', 'vlozka-sroubu'),
+    (110, 'vložka šroubu', 'vlozka-sroubu'),
     (110, 'krouzek stredici', 'krouzek-stredici'),
     (110, 'kroužek středicí', 'krouzek-stredici'),
     (110, 'krouzek stredic', 'krouzek-stredici'),
     (110, 'kroužek středic', 'krouzek-stredici'),
+    (110, 'stredici krouzek', 'krouzek-stredici'),
+    (110, 'středicí kroužek', 'krouzek-stredici'),
     (110, 'gufero', 'gufero-krouzek'),
     (110, 'gufero a krouzek', 'gufero-krouzek'),
     (110, 'gufero a kroužek', 'gufero-krouzek'),
+    (110, 'simeringk', 'gufero-krouzek'),
+    (110, 'simering', 'gufero-krouzek'),
+    (110, 'simeringový', 'gufero-krouzek'),
     (110, 'lozisko naprav', 'lozisko-napravy'),
     (110, 'ložisko náprav', 'lozisko-napravy'),
     (110, 'lozisko nabo', 'lozisko-napravy'),
     (110, 'ložisko nábo', 'lozisko-napravy'),
+    (110, 'lozisko kuz', 'lozisko-napravy'),
+    (110, 'ložisko kuž', 'lozisko-napravy'),
+    (110, 'lozisko jeh', 'lozisko-napravy'),
+    (110, 'ložisko jeh', 'lozisko-napravy'),
     (110, 'podlozka perova', 'podlozka-perova'),
     (110, 'podložka pérová', 'podlozka-perova'),
     (110, 'podlozka pero', 'podlozka-perova'),
@@ -132,8 +147,12 @@ PRODUCT_KEYWORDS = [
     (100, 'vahadl', 'dily-vahadla'),  # fallback pro ostatni vahadla
     (100, 'buben brzdy s naboj', 'buben-s-nabojem'),
     (100, 'buben brzdy s náboj', 'buben-s-nabojem'),
+    (100, 'buben s naboj', 'buben-s-nabojem'),
+    (100, 'buben s náboj', 'buben-s-nabojem'),
     (100, 'pero listov', 'pero-listove'),
     (100, 'pera listov', 'pero-listove'),
+    (100, 'listove pero', 'pero-listove'),
+    (100, 'listové pero', 'pero-listove'),
     (100, 'cep pera', 'cepy-pouzdra'),
     (100, 'čep pera', 'cepy-pouzdra'),
     (100, 'pouzdro pera', 'cepy-pouzdra'),
@@ -145,10 +164,14 @@ PRODUCT_KEYWORDS = [
     (100, 'páka klíče', 'paka-klice'),
     (100, 'trmen pera', 'trmen-pera'),
     (100, 'třmen pera', 'trmen-pera'),
+    (100, 'trmen per', 'trmen-pera'),
+    (100, 'třmen per', 'trmen-pera'),
 
     # === PRIORITA 80 — hlavni terminy ===
     # Brzdy
     (80, 'buben brzdy', 'buben-brzdy'),
+    (80, 'brzdov buben', 'buben-brzdy'),
+    (80, 'brzdový buben', 'buben-brzdy'),
     (80, 'buben s naboj', 'buben-s-nabojem'),
     (80, 'buben s náboj', 'buben-s-nabojem'),
     (80, 'brzdov obloz', 'brzdove-oblozeni'),
@@ -158,6 +181,10 @@ PRODUCT_KEYWORDS = [
     (80, 'obloženi brzd', 'brzdove-oblozeni'),
     (80, 'brzdov destic', 'brzdove-oblozeni'),
     (80, 'brzdové destič', 'brzdove-oblozeni'),
+    (80, 'brzdova deska', 'brzdove-oblozeni'),
+    (80, 'brzdová deska', 'brzdove-oblozeni'),
+    (80, 'desky brzdov', 'brzdove-oblozeni'),
+    (80, 'desky brzdové', 'brzdove-oblozeni'),
     (70, 'obloženi ', 'brzdove-oblozeni'),
     (70, 'obložení ', 'brzdove-oblozeni'),
     (70, 'oblozeni ', 'brzdove-oblozeni'),
@@ -165,12 +192,16 @@ PRODUCT_KEYWORDS = [
     (80, 'čelist brzdy', 'celist-brzdy'),
     (80, 'celist brzdov', 'celist-brzdy'),
     (80, 'čelist brzdov', 'celist-brzdy'),
+    (80, 'brzdova celist', 'celist-brzdy'),
+    (80, 'brzdová čelist', 'celist-brzdy'),
     (80, 'klic brzdy', 'klic-brzdy'),
     (80, 'klíč brzdy', 'klic-brzdy'),
     (80, 'klic brzdov', 'klic-brzdy'),
     (80, 'klíč brzdov', 'klic-brzdy'),
     (80, 'klic rozperny', 'klic-brzdy'),
     (80, 'klíč rozpěrný', 'klic-brzdy'),
+    (80, 'brzdovy klic', 'klic-brzdy'),
+    (80, 'brzdový klíč', 'klic-brzdy'),
     (80, 'paka brzdov', 'paka-klice'),
     (80, 'páka brzdov', 'paka-klice'),
     (80, 'brzdovy valec', 'brzdovy-valec'),
@@ -181,27 +212,40 @@ PRODUCT_KEYWORDS = [
     (80, 'válec brzdov', 'brzdovy-valec'),
     (80, 'membranovy valec', 'brzdovy-valec'),
     (80, 'membránový válec', 'brzdovy-valec'),
+    (80, 'valec kolovy', 'brzdovy-valec'),
+    (80, 'válec kolový', 'brzdovy-valec'),
     (80, 'brzda rucni', 'brzda-rucni'),
     (80, 'brzda ruční', 'brzda-rucni'),
     (80, 'rucni brzda', 'brzda-rucni'),
     (80, 'ruční brzda', 'brzda-rucni'),
+    (80, 'parkovaci brzd', 'brzda-rucni'),
+    (80, 'parkovací brzd', 'brzda-rucni'),
     (80, 'membrana valc', 'membrany-valcu'),
     (80, 'membrána válc', 'membrany-valcu'),
+    (80, 'membrana brzd', 'membrany-valcu'),
+    (80, 'membrána brzd', 'membrany-valcu'),
     (80, 'nahradni dily valc', 'nd-valcu'),
     (80, 'náhradní díly válc', 'nd-valcu'),
     (80, 'opravarsk sada valc', 'nd-valcu'),
     (80, 'opravárenská sada válc', 'nd-valcu'),
+    (80, 'opravna sada brzd', 'nd-valcu'),
+    (80, 'opravná sada brzd', 'nd-valcu'),
 
     # Kolo / naboj
     (80, 'naboj kola', 'naboj-kola'),
     (80, 'náboj kola', 'naboj-kola'),
+    (80, 'naboj komplet', 'naboj-kola'),
+    (80, 'náboj komplet', 'naboj-kola'),
     (80, 'disk kola', 'disk-kola'),
+    (80, 'disk plechov', 'disk-kola'),
+    (80, 'disk plechový', 'disk-kola'),
     (80, 'sroub kola', 'srouby-kola'),
     (80, 'šroub kola', 'srouby-kola'),
     (80, 'srouby kola', 'srouby-kola'),
     (80, 'šrouby kola', 'srouby-kola'),
     (80, 'matice diskov', 'srouby-kola'),
     (80, 'matice kola', 'srouby-kola'),
+    (80, 'matice kolov', 'srouby-kola'),
     (80, 'tesneni nabo', 'naboj-kola'),
     (80, 'těsnění nábo', 'naboj-kola'),
 
@@ -229,6 +273,8 @@ PRODUCT_KEYWORDS = [
     (80, 'koncovka spojov', 'napravy-obecne'),
     (80, 'sada ulozeni tlumic', 'napravy-obecne'),
     (80, 'sada uložení tlumič', 'napravy-obecne'),
+    (80, 'priruba', 'napravy-obecne'),
+    (80, 'příruba', 'napravy-obecne'),
 
     # Vzduchove brzdy
     (80, 'ventil brzd', 'ventily-brzd'),
@@ -256,6 +302,7 @@ PRODUCT_KEYWORDS = [
     (80, 'ventil relé', 'ventily-brzd'),
     (80, 'wabco', 'ventily-brzd'),
     (80, 'knorr-bremse', 'ventily-brzd'),
+    (80, 'knorr bremse', 'ventily-brzd'),
     (80, 'haldex', 'ventily-brzd'),
     (80, 'vzduchoj', 'vzduchojemy'),
     (80, 'rozvadec vzduch', 'rozvadece'),
@@ -298,6 +345,32 @@ PRODUCT_KEYWORDS = [
     (80, 'pružina přídavn', 'nd-valcu'),
     (80, 'pruzina vratn', 'pruzina-celisti'),
     (80, 'pružina vratn', 'pruzina-celisti'),
+
+    # === PRIORITA 60 — obecne fallbacky pro zachyceni vice produktu ===
+    (60, 'brzd', 'nd-valcu'),          # cokoliv s "brzd" co nebylo zachyceno vyse
+    (60, 'obloz', 'brzdove-oblozeni'), # oblozeni bez specifikace
+    (60, 'valec', 'brzdovy-valec'),    # valec bez specifikace
+    (60, 'buben', 'buben-brzdy'),      # buben bez specifikace
+    (60, 'celist', 'celist-brzdy'),    # celist bez specifikace
+    (60, 'čelist', 'celist-brzdy'),
+    (60, 'klic', 'klic-brzdy'),        # klic bez specifikace (pozor - musi byt po blacklistu)
+    (60, 'klíč', 'klic-brzdy'),
+    (60, 'naboj', 'naboj-kola'),       # naboj bez specifikace
+    (60, 'náboj', 'naboj-kola'),
+    (60, 'lozisk', 'lozisko-napravy'), # lozisko bez specifikace
+    (60, 'ložisk', 'lozisko-napravy'),
+    (60, 'pouzdro', 'cepy-pouzdra'),   # pouzdro bez specifikace
+    (60, 'cep ', 'cep-kola'),          # cep bez specifikace
+    (60, 'čep ', 'cep-kola'),
+    (60, 'krouzek', 'cepy-pouzdra'),   # krouzek bez specifikace
+    (60, 'kroužek', 'cepy-pouzdra'),
+    (60, 'pero ', 'pero-listove'),     # pero bez specifikace
+    (60, 'péro ', 'pero-listove'),
+    (60, 'ventil', 'ventily-brzd'),    # ventil bez specifikace
+    (60, 'sroub', 'srouby-kola'),      # sroub v kontextu kola
+    (60, 'šroub', 'srouby-kola'),
+    (60, 'matice', 'srouby-kola'),     # matice v kontextu kola
+    (60, 'disk', 'disk-kola'),         # disk bez specifikace
 ]
 
 # Blacklist — produkty mimo tema (presne: nepatri do brzd ani naprav)
@@ -374,8 +447,69 @@ def categorize_product(name, subtitle=''):
             best_cat = cat_id
     return best_cat
 
+# ============================================================
+# DETEKCE STAVU SKLADU — robustni metoda
+# ============================================================
+def detect_stock(product_div):
+    """Zjisti skutecny stav skladu z HTML produktu.
+
+    Prohledava vice moznych HTML struktur:
+    1. Element s tridou obsahujici 'stock' (stock_yes, stock_no, stockState, ...)
+    2. Element s tridou 'availability'
+    3. Element s tridou obsahujici 'avail'
+    4. Element s atributem data-stock
+    5. Text v elementu s tridou 'price' (nekdy obsahuje "skladem")
+    """
+    # 1. Hledej element s tridou obsahujici 'stock'
+    stock_el = product_div.find(class_=re.compile(r'stock', re.I))
+    if stock_el:
+        text = stock_el.get_text(strip=True)
+        if text:
+            # Normalizuj: pokud obsahuje "skladem" => skladem, jinak vrat puvodni text
+            if 'skladem' in text.lower():
+                return 'skladem'
+            elif text.lower() in ('', '-'):
+                return 'na-dotaz'
+            else:
+                # Vrat skutecny text z e-shopu (napr. "Na dotaz", "Na objednávku", "Vyprodáno")
+                return 'na-dotaz'
+
+    # 2. Hledej element s tridou 'availability' nebo 'avail'
+    avail_el = product_div.find(class_=re.compile(r'avail', re.I))
+    if avail_el:
+        text = avail_el.get_text(strip=True)
+        if text and 'skladem' in text.lower():
+            return 'skladem'
+        elif text:
+            return 'na-dotaz'
+
+    # 3. Hledej data-stock atribut
+    el_with_data = product_div.find(attrs={'data-stock': True})
+    if el_with_data:
+        val = el_with_data['data-stock']
+        if val and val.lower() in ('true', '1', 'yes', 'instock'):
+            return 'skladem'
+        else:
+            return 'na-dotaz'
+
+    # 4. Hledej zeleny/cerveny indikator (class obsahujici 'green' nebo 'in-stock')
+    green = product_div.find(class_=re.compile(r'(green|in.?stock|available)', re.I))
+    if green:
+        return 'skladem'
+
+    red = product_div.find(class_=re.compile(r'(red|out.?of.?stock|unavailable)', re.I))
+    if red:
+        return 'na-dotaz'
+
+    # 5. Fallback — hledej text "skladem" kdekoliv v produktu
+    full_text = product_div.get_text(' ', strip=True).lower()
+    if 'skladem' in full_text:
+        return 'skladem'
+
+    return 'na-dotaz'
+
 print("=" * 60)
-print("  ROBOT DILY NA NAPRAVY v4 (rozsirene kategorie)")
+print("  ROBOT DILY NA NAPRAVY v5 (opraveny stock + vice produktu)")
 print("=" * 60)
 
 h = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
@@ -385,6 +519,8 @@ products = {}
 pages = 0
 errors = 0
 vyrazeno = 0
+nezarazeno = 0  # produkty bez kategorie (logovane)
+nezarazene_produkty = []  # seznam pro diagnostiku
 
 while queue:
     url = queue.pop(0)
@@ -410,6 +546,7 @@ while queue:
 
         na_strance_ok = 0
         na_strance_vyrazeno = 0
+        na_strance_nezarazeno = 0
 
         for p in prods:
             td = p.find('div', class_='productTitleContent')
@@ -452,7 +589,8 @@ while queue:
                     if not src.startswith('data:') and 'spacer' not in src.lower():
                         img_url = src if src.startswith('http') else BASE_URL + ('' if src.startswith('/') else '/') + src
 
-            stock = 'skladem' if p.find(class_='stock_yes') else 'na-dotaz'
+            # OPRAVENA DETEKCE SKLADU — pouziva robustni funkci
+            stock = detect_stock(p)
 
             if link not in products:
                 products[link] = {
@@ -467,16 +605,30 @@ while queue:
                 na_strance_ok += 1
 
         vyrazeno += na_strance_vyrazeno
+        nezarazeno += na_strance_nezarazeno
 
         if na_strance_ok > 0 or na_strance_vyrazeno > 0:
             print(f"      +{na_strance_ok} produktu, -{na_strance_vyrazeno} vyrazeno")
+        if na_strance_nezarazeno > 0:
+            print(f"      !{na_strance_nezarazeno} bez kategorie (zarazeno do 'ostatni')")
 
+        # Hledani podstranek — rozsirene o vice formatu strankovan
         for a in soup.find_all('a', href=True):
             hr = a['href']
             if any(k in hr for k in POVOLENE) and '.htm' in hr:
                 full = hr if hr.startswith('http') else BASE_URL + ('' if hr.startswith('/') else '/') + hr
                 if full not in visited and full not in queue:
                     queue.append(full)
+
+        # Hledani strankovani v <nav> nebo <div class="pagination/paging">
+        paging = soup.find(class_=re.compile(r'(pagination|paging|pages|stranky)', re.I))
+        if paging:
+            for a in paging.find_all('a', href=True):
+                hr = a['href']
+                if '.htm' in hr:
+                    full = hr if hr.startswith('http') else BASE_URL + ('' if hr.startswith('/') else '/') + hr
+                    if full not in visited and full not in queue:
+                        queue.append(full)
 
         time.sleep(0.3)
 
@@ -491,6 +643,13 @@ stats = {}
 for p in result:
     stats[p['category']] = stats.get(p['category'], 0) + 1
 
+stock_stats = {'skladem': 0, 'na-dotaz': 0}
+for p in result:
+    if p['stock'] == 'skladem':
+        stock_stats['skladem'] += 1
+    else:
+        stock_stats['na-dotaz'] += 1
+
 s_foto = sum(1 for p in result if p.get('image'))
 
 path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data.json')
@@ -501,10 +660,19 @@ print()
 print("=" * 60)
 print(f"  HOTOVO!")
 print(f"  Produktu: {len(result)} (s fotkou: {s_foto})")
-print(f"  Vyrazeno (mimo tema): {vyrazeno}")
+print(f"  Skladem: {stock_stats['skladem']}, Na dotaz: {stock_stats['na-dotaz']}")
+print(f"  Vyrazeno (blacklist): {vyrazeno}")
 print(f"  Stranek: {pages}, chyb: {errors}")
 print(f"  Kategorii: {len(stats)}")
 print("-" * 60)
 for c, n in sorted(stats.items(), key=lambda x: -x[1]):
     print(f"  {c:30s} {n:4d}")
 print("=" * 60)
+
+if nezarazene_produkty:
+    print()
+    print("NEZARAZENE PRODUKTY (bez kategorie):")
+    for np_item in nezarazene_produkty[:30]:
+        print(f"  - {np_item}")
+    if len(nezarazene_produkty) > 30:
+        print(f"  ... a dalších {len(nezarazene_produkty) - 30}")

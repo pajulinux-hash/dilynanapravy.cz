@@ -561,8 +561,8 @@ function renderProducts() {
   let html = '';
   shown.forEach((p, i) => {
     const catName = getCategoryName(p.category);
-    const stockClass = p.stock === 'skladem' ? 'in' : 'out';
-    const stockText = p.stock === 'skladem' ? 'Skladem' : 'Na dotaz';
+    const stockClass = (p.stock && p.stock.toLowerCase().includes('skladem')) ? 'in' : 'out';
+    const stockText = (p.stock && p.stock.toLowerCase().includes('skladem')) ? 'Skladem' : 'Na dotaz';
     const shopUrl = p.url || 'https://obchod.fimas.cz';
 
     html += '<div class="product-card" onclick="openProduct(' + i + ')" style="animation-delay:' + (i * 0.03) + 's">' +
@@ -748,7 +748,7 @@ function openProduct(index) {
   document.getElementById('modalTitle').textContent = p.name;
   document.getElementById('modalCodes').textContent = p.subtitle || 'Bez kódů';
   const stockEl = document.getElementById('modalStock');
-  if (p.stock === 'skladem') {
+  if (p.stock && p.stock.toLowerCase().includes('skladem')) {
     stockEl.innerHTML = '<span class="p-stock in">Skladem</span>';
   } else {
     stockEl.innerHTML = '<span class="p-stock out">Na dotaz</span>';
